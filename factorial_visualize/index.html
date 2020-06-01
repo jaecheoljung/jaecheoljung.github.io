@@ -12,12 +12,15 @@
 	<div id="vis"></div>
 
 
-	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	
+	console.log("$", window.jQuery)
+	
 	<script src="factor.js"></script>
 	<script src="draw.js"></script>
  	<script>
  		// Hack to make this example display correctly in an iframe on bl.ocks.org
-    	d3.select(self.frameElement).style("height", "1500px");
+    		d3.select(self.frameElement).style("height", "1500px");
     </script>
 </body>
 
